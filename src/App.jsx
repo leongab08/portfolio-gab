@@ -5,11 +5,12 @@ export default function App() {
     < >
       <Navbar />
 
+      <Home />
+      
+      <About />
+
       <Projects />
       
-      <Home />
-
-      <About />
 
       <Stack />
 

@@ -1,3 +1,7 @@
+import reactIcon from "assets/icons/React.png";
+import tailwindIcon from "assets/icons/Tailwind Css.png";
+import viteIcon from "assets/icons/Vite.js.png";
+
 export default function Footer(){
     return(
         <footer>
@@ -44,6 +48,15 @@ export default function Footer(){
             <span>
               <i className="bx bxl-github"></i>
             </span>
+          </div>
+          <div>
+            <h6 className="bg-gradient-to-r from-[#fc3421] to-[#3ec5ff] text-transparent bg-clip-text mb-2">Porfolio Stack</h6>
+            <ol id="portfolio-tecnologies" className="flex gap-4">
+              <img src={reactIcon} className="w-12 h-12" alt="" />
+              <img src={tailwindIcon}  className="w-12 h-12" alt="" />
+              <img src={viteIcon}   className="w-12 h-12" alt="" />
+
+            </ol>
           </div>
         </div>
       </footer>
