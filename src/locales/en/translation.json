@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "stack": "Stack",
+    "services": "Services",
+    "contact": "Contact",
+    "contactMe": "Contact Me"
+  },
+  "home": {
+    "hello": "Hello I'm Gabriel Esperilla",
+    "role": "Web Developer",
+    "from": "from Tecnologico de Monterrey",
+    "description": "I'm a very passionated person of the web development, i think that the web development is fundamental in our society and that's why i choose this career",
+    "hire": "Hire",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About me",
+    "description": "I consider myself a resilient person, I always try to give my best to meet my objectives and despite problems, I will strive to fulfill all my objectives and goals in this life.",
+    "skills": "Skills"
+  },
+  "projects": {
+    "title": "My projects",
+    "viewGithub": "View on Github",
+    "viewLive": "view live",
+    "viewCode": "view code"
+  },
+  "stack": {
+    "title": "MY TECH STACK",
+    "frontend": "FrontEnd",
+    "backend": "BackEnd",
+    "database": "DataBase",
+    "tools": "Tools"
+  },
+  "services": {
+    "title": "Services",
+    "webDev": {
+      "title": "Web development",
+      "description": "I am capable of developing websites for businesses and companies, I have experience with independent businesses, boosting their sales and helping them reach more customers"
+    },
+    "webDesign": {
+      "title": "Web design",
+      "description": "I am capable of designing web pages for businesses and companies, I have experience with independent businesses, boosting their sales and helping them reach more customers"
+    },
+    "ai": {
+      "title": "AI engineering",
+      "description": "I can develop machine learning algorithms and automations for businesses or companies"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "fullName": "Full Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit",
+    "placeholders": {
+      "fullName": "Full Name",
+      "email": "example@email.com",
+      "message": "Leave a Message"
+    }
+  },
+  "footer": {
+    "location": "Apaxco Estado de Mexico Mexico",
+    "aboutServices": "About My Services",
+    "aboutDescription": "I am available at any time, don't hesitate to request information or contact me",
+    "portfolioStack": "Portfolio Stack"
+  },
+  "language": {
+    "en": "English",
+    "es": "Spanish"
+  }
+}

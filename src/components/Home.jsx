@@ -1,27 +1,33 @@
 import fotoPerifl from "assets/fotoPerfil.jpeg";
+import { useTranslation } from "react-i18next";
+import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
 export default function Home() {
+  const { t } = useTranslation();
+  const [ref, isVisible] = useScrollAnimation();
+
   return (
-    <section id="home">
+    <section
+      id="home"
+      ref={ref}
+      className={`fade-in-section ${isVisible ? "is-visible" : ""}`}
+    >
       <img src={fotoPerifl} alt="Picture of me" />
 
       <div className="info-box">
         <h1>
-          <span>Hello I'm Gabriel Esperilla</span>
+          <span>{t("home.hello")}</span>
         </h1>
         <h3>
-          <span>Web Developer </span>from Tecnologico de Monterrey
+          <span>{t("home.role")} </span>
+          {t("home.from")}
         </h3>
-        <p>
-          I'm a very passionated person of the web development, i think that the
-          web development is fundamental in our society and i that's why i
-          choose this career{" "}
-        </p>
+        <p>{t("home.description")}</p>
       </div>
 
       <div className="btn-box">
-        <div className="btn">Hire</div>
-        <div className="btn">Contact Me</div>
+        <div className="btn">{t("home.hire")}</div>
+        <div className="btn">{t("home.contactMe")}</div>
       </div>
     </section>
   );

@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "stack": "Tecnologías",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "contactMe": "Contáctame"
+  },
+  "home": {
+    "hello": "Hola, soy Gabriel Esperilla",
+    "role": "Desarrollador Web",
+    "from": "del Tecnológico de Monterrey",
+    "description": "Soy una persona muy apasionada por el desarrollo web, creo que el desarrollo web es fundamental en nuestra sociedad y por eso elegí esta carrera",
+    "hire": "Contratar",
+    "contactMe": "Contáctame"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "Me considero una persona resiliente, siempre trato de dar lo mejor de mí para cumplir con mis objetivos y a pesar de los problemas, me esforzaré hasta cumplir todos mis objetivos y metas en esta vida.",
+    "skills": "Habilidades"
+  },
+  "projects": {
+    "title": "Mis proyectos",
+    "viewGithub": "Ver en Github",
+    "viewLive": "Ver demo",
+    "viewCode": "Ver código"
+  },
+  "stack": {
+    "title": "MIS TECNOLOGÍAS",
+    "frontend": "FrontEnd",
+    "backend": "BackEnd",
+    "database": "Base de Datos",
+    "tools": "Herramientas"
+  },
+  "services": {
+    "title": "Servicios",
+    "webDev": {
+      "title": "Desarrollo web",
+      "description": "Soy capaz de desarrollar sitios web para negocios y empresas, tengo experiencia con negocios independientes, potenciando sus ventas y ayudándoles a llegar a más clientes"
+    },
+    "webDesign": {
+      "title": "Diseño web",
+      "description": "Soy capaz de diseñar páginas web para negocios y empresas, tengo experiencia con negocios independientes, potenciando sus ventas y ayudándoles a llegar a más clientes"
+    },
+    "ai": {
+      "title": "Ingeniería de IA",
+      "description": "Puedo desarrollar algoritmos de aprendizaje automático y automatizaciones para negocios o empresas"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "fullName": "Nombre completo",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "submit": "Enviar",
+    "placeholders": {
+      "fullName": "Nombre completo",
+      "email": "ejemplo@email.com",
+      "message": "Deja un mensaje"
+    }
+  },
+  "footer": {
+    "location": "Apaxco Estado de México México",
+    "aboutServices": "Sobre mis servicios",
+    "aboutDescription": "Estoy disponible en cualquier momento, no dudes en solicitar información o contactarte conmigo",
+    "portfolioStack": "Tecnologías del Portfolio"
+  },
+  "language": {
+    "en": "Inglés",
+    "es": "Español"
+  }
+}
