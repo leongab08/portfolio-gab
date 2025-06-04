@@ -28,7 +28,7 @@ export default function Footer() {
           <span>
             <i className="bx bxs-envelope"></i>
           </span>
-          <span>gabochu280@gmail.com</span>
+          <span>gabrielesperilla280@gmail.com</span>
         </div>
       </div>
 

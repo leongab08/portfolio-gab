@@ -70,7 +70,7 @@ export default function Navbar() {
   return (
     <nav>
       <a href="#" className="logo" onClick={handleLinkClick}>
-        <span>Gabriel</span>
+        <span>Gabriel Esperilla</span>
       </a>
 
       <ul className={`lists ${isMenuOpen ? "active" : ""}`}>

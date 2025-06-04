@@ -66,7 +66,7 @@ export default function Projects() {
                 id="project-stack"
               >
                 {isXl && (
-                  <a href="" target="blank">
+                  <a href="https://github.com/TC2005B-FJ-2025/AWAQ.EcoGuardians.git" target="_blank">
                     <p className="py-1 px-2 border-2 hidden xl:block border-white rounded-2xl hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
                       {t("projects.viewGithub")}
                     </p>
@@ -95,10 +95,10 @@ export default function Projects() {
               className="flex justify-between mt-4 xl:absolute top-0 right-1"
             >
               <button className="bg-white text-primary-background py-1 px-2 rounded-md hover:bg-transparent border-2 border-white hover:text-white transition-all duration-300 cursor-pointer xl:mr-3">
-                {t("projects.viewLive")}
+                <a href="https://ecoguardians-kappa.vercel.app/" target="_blank">{t("projects.viewLive")}</a>
               </button>
               <button className="xl:hidden border-2 py-1 px-2 rounded-md hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
-                {t("projects.viewCode")}
+                <a href="https://github.com/TC2005B-FJ-2025/AWAQ.EcoGuardians.git" target="_blank"> {t("projects.viewCode")}</a>
               </button>
             </div>
           </div>
@@ -125,9 +125,9 @@ export default function Projects() {
                 id="project-stack"
               >
                 {isXl && (
-                  <a href="" target="blank">
+                  <a href="https://github.com/leongab08/GPT-clone.git" target="_blank">
                     <p className="py-1 px-2 border-2 hidden xl:block border-white rounded-2xl hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
-                      {t("projects.viewGithub")}
+                     {t("projects.viewGithub")}
                     </p>
                   </a>
                 )}
@@ -154,10 +154,10 @@ export default function Projects() {
               className="flex justify-between mt-4 xl:absolute top-10 right-1"
             >
               <button className="bg-white text-primary-background py-1 px-2 rounded-md hover:bg-transparent border-2 border-white hover:text-white transition-all duration-300 cursor-pointer xl:mr-3">
-                {t("projects.viewLive")}
+                <a target = "_blank " href="https://gpt-clone-ecru.vercel.app/">{t("projects.viewLive")}</a>
               </button>
               <button className="xl:hidden border-2 py-1 px-2 rounded-md hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
-                {t("projects.viewCode")}
+                <a target= "_blank" href="https://github.com/leongab08/GPT-clone.git">{t("projects.viewCode")}</a>
               </button>
             </div>
           </div>
@@ -185,7 +185,7 @@ export default function Projects() {
                 id="project-stack"
               >
                 {isXl && (
-                  <a href="" target="blank">
+                  <a href="https://github.com/leongab08/Predictor-gastos-ScikitLearn.git" target="_blank">
                     <p className="py-1 px-2 border-2 hidden xl:block border-white rounded-2xl hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
                       {t("projects.viewGithub")}
                     </p>
@@ -216,10 +216,10 @@ export default function Projects() {
               className="flex justify-between mt-4 xl:absolute top-0 right-1"
             >
               <button className="bg-white text-primary-background py-1 px-2 rounded-md hover:bg-transparent border-2 border-white hover:text-white transition-all duration-300 cursor-pointer xl:mr-3">
-                {t("projects.viewLive")}
+               <a target="_blank" href="https://colab.research.google.com/drive/1BHZmJs_92C-paKWqq6809uxRFOyEcts1?usp=sharing"> {t("projects.viewLive")} </a>
               </button>
               <button className="xl:hidden border-2 py-1 px-2 rounded-md hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
-                {t("projects.viewCode")}
+                 <a target="_blank" href="https://github.com/leongab08/Predictor-gastos-ScikitLearn.git"> {t("projects.viewCode")} </a>
               </button>
             </div>
           </div>
@@ -247,7 +247,7 @@ export default function Projects() {
                 id="project-stack"
               >
                 {isXl && (
-                  <a href="" target="blank">
+                  <a href="https://github.com/leongab08/Azure_IoT_Central_ESP32.git" target="_blank">
                     <p className="py-1 px-2 border-2 hidden xl:block border-white rounded-2xl hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
                       {t("projects.viewGithub")}
                     </p>
@@ -280,10 +280,10 @@ export default function Projects() {
               className="flex justify-between mt-4 xl:absolute top-0 right-1"
             >
               <button className="bg-white text-primary-background py-1 px-2 rounded-md hover:bg-transparent border-2 border-white hover:text-white transition-all duration-300 cursor-pointer xl:mr-3">
-                {t("projects.viewLive")}
+               <a href="https://drive.google.com/drive/folders/1cZgMguxjhFFtIKlxdQFAjUZaxF2klXvd?usp=sharing" target="_blank">{t("projects.viewLive")}</a>
               </button>
               <button className="xl:hidden border-2 py-1 px-2 rounded-md hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
-                {t("projects.viewCode")}
+                <a href="https://github.com/leongab08/Azure_IoT_Central_ESP32.git" target="_blank">{t("projects.viewCode")}</a>
               </button>
             </div>
           </div>
