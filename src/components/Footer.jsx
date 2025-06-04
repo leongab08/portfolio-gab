@@ -1,5 +1,5 @@
 import reactIcon from "assets/icons/React.png";
-import tailwindIcon from "assets/icons/Tailwind-Css.png";
+import tailwindIcon from "assets/icons/Tailwind_Css.png";
 import viteIcon from "assets/icons/Vite.js.png";
 
 import { useTranslation } from "react-i18next";
