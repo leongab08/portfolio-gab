@@ -6,7 +6,9 @@
     "stack": "Tecnologías",
     "services": "Servicios",
     "contact": "Contacto",
-    "contactMe": "Contáctame"
+    "contactMe": "Contáctame",
+    "viewCV": "Ver CV",
+    "cv": "CV"
   },
   "home": {
     "hello": "Hola, soy Gabriel Esperilla",

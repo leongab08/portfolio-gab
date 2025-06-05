@@ -69,10 +69,13 @@ export default function Navbar() {
 
   return (
     <nav>
+      {" "}
       <a href="#" className="logo" onClick={handleLinkClick}>
-        <span>Gabriel Esperilla</span>
+        <span className="hidden md:inline lg:text-2xl xl:text-3xl">
+          Gabriel Esperilla
+        </span>
+        <span className="md:hidden">Gabriel Esperilla</span>
       </a>
-
       <ul className={`lists ${isMenuOpen ? "active" : ""}`}>
         <a
           href="#home"
@@ -117,7 +120,6 @@ export default function Navbar() {
           {t("nav.contact")}
         </a>
       </ul>
-
       <div className="nav-right">
         <div className="language-switcher">
           <button
@@ -134,14 +136,24 @@ export default function Navbar() {
 
         <a
           href="#contact"
-          className="btn btn-contact"
+          className="btn btn-contact hidden md:inline-flex"
           onClick={handleLinkClick}
         >
           {t("nav.contactMe")}
         </a>
 
+        <a
+          href="https://drive.google.com/file/d/1ON4mJn6ObHQFAbdl7Y5b_OxwdtvoyiX1/view?usp=sharing"
+          className="btn cv-btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="hidden lg:inline">{t("nav.viewCV")}</span>
+          <span className="lg:hidden">{t("nav.cv")}</span>
+        </a>
+
         <button
-          className="bx bx-menu"
+          className="bx bx-menu md:hidden"
           id="menu"
           onClick={(e) => {
             e.stopPropagation();

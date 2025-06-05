@@ -6,7 +6,9 @@
     "stack": "Stack",
     "services": "Services",
     "contact": "Contact",
-    "contactMe": "Contact Me"
+    "contactMe": "Contact Me",
+    "viewCV": "View CV",
+    "cv": "CV"
   },
   "home": {
     "hello": "Hello I'm Gabriel Esperilla",
