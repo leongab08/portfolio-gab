@@ -28,7 +28,9 @@ export default function Footer() {
           <span>
             <i className="bx bxs-envelope"></i>
           </span>
+          <a href="mailto:gabrielesperilla280@gmail.com">
           <span>gabrielesperilla280@gmail.com</span>
+          </a>
         </div>
       </div>
 
@@ -38,16 +40,28 @@ export default function Footer() {
 
         <div className="social-icons">
           <span>
-            <i className="bx bxl-facebook-square"></i>
+            <a href="mailto:gabrielesperilla280@gmail.com">
+              <i className="bx bx-envelope"></i>
+            </a>
           </span>
           <span>
-            <i className="bx bxl-instagram-alt"></i>
+            <a
+              href="https://wa.me/527713494640"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="bx bxl-whatsapp"></i>
+            </a>
           </span>
           <span>
+            <a href="https://www.linkedin.com/in/gabriel-esperilla-34a490218/" target="_blank" rel="noopener noreferrer">
             <i className="bx bxl-linkedin-square"></i>
+            </a>
           </span>
           <span>
+            <a href="https://github.com/leongab08" target="_blank" rel="noopener noreferrer">
             <i className="bx bxl-github"></i>
+            </a>
           </span>
         </div>
         <div>

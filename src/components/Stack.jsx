@@ -15,6 +15,8 @@ import mySqlIcon from "assets/icons/mysql-original.svg";
 import mongodbIcon from "assets/icons/file-type-mongo.svg";
 import gitIcon from "assets/icons/git.svg";
 import figmaIcon from "assets/icons/Figma.svg";
+import visualStudioCodeIcon from "assets/icons/Visual-Studio.png";
+import laravelIcon from "assets/icons/laravel.svg";
 
 export default function Stack() {
   const { t } = useTranslation();
@@ -95,6 +97,11 @@ export default function Stack() {
               <img src={nodeIcon} alt="" className="w-11 " />
               <p>Node.js</p>
             </div>
+             <div className="flex gap-4 text-2xl items-center cursor-pointer hover:-translate-y-2 transition-transform duration-300">
+              {" "}
+              <img src={laravelIcon} alt="" className="w-11 " />
+              <p>Laravel</p>
+            </div>
           </div>
         </div>
         <div className="xmd:flex">
@@ -134,6 +141,11 @@ export default function Stack() {
               {" "}
               <img src={figmaIcon} alt="" className="w-10" />
               <p>Figma</p>
+            </div>
+            <div className="flex gap-4 text-2xl items-center cursor-pointer hover:-translate-y-2 transition-transform duration-300">
+              {" "}
+              <img src={visualStudioCodeIcon} alt="" className="w-10" />
+              <p>VS Code</p>
             </div>
           </div>
         </div>

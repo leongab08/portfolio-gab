@@ -26,8 +26,13 @@ export default function Home() {
       </div>
 
       <div className="btn-box">
+        <a href="#contact">
         <div className="btn">{t("home.hire")}</div>
-        <div className="btn">{t("home.contactMe")}</div>
+        </a>
+        <a href="#contact">
+          {" "}
+          <div className="btn">{t("home.contactMe")}</div>
+        </a>
       </div>
     </section>
   );
