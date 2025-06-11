@@ -143,7 +143,7 @@ export default function Navbar() {
         </a>
 
         <a
-          href="https://drive.google.com/file/d/1ON4mJn6ObHQFAbdl7Y5b_OxwdtvoyiX1/view?usp=sharing"
+          href="https://drive.google.com/drive/folders/1fJPgBybXEIEveKeTTO0ZzrXjYLlDBJf8?usp=sharing"
           className="btn cv-btn"
           target="_blank"
           rel="noopener noreferrer"
