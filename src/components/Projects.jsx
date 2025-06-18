@@ -66,7 +66,10 @@ export default function Projects() {
                 id="project-stack"
               >
                 {isXl && (
-                  <a href="https://github.com/TC2005B-FJ-2025/AWAQ.EcoGuardians.git" target="_blank">
+                  <a
+                    href="https://github.com/TC2005B-FJ-2025/AWAQ.EcoGuardians.git"
+                    target="_blank"
+                  >
                     <p className="py-1 px-2 border-2 hidden xl:block border-white rounded-2xl hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
                       {t("projects.viewGithub")}
                     </p>
@@ -82,12 +85,9 @@ export default function Projects() {
                 <span className="py-1 px-2 border-2 border-amber-50 rounded-2xl ">
                   Flask (Python)
                 </span>
-              </div>
+              </div>{" "}
               <p id="project-description" className="mt-3 xl:text-sm">
-                Sitio web desarrollado en colaboración con la ONG colombiana
-                AWAQ, quienes nos pidieron integrar su videojuego en WebGL. El
-                proyecto combina diseño responsivo con tecnologías modernas como
-                React y Tailwind CSS.
+                {t("projects.descriptions.awaqEcoGuardians")}
               </p>
             </div>
             <div
@@ -95,10 +95,21 @@ export default function Projects() {
               className="flex justify-between mt-4 xl:absolute top-0 right-1"
             >
               <button className="bg-white text-primary-background py-1 px-2 rounded-md hover:bg-transparent border-2 border-white hover:text-white transition-all duration-300 cursor-pointer xl:mr-3">
-                <a href="https://ecoguardians-kappa.vercel.app/" target="_blank">{t("projects.viewLive")}</a>
+                <a
+                  href="https://ecoguardians-kappa.vercel.app/"
+                  target="_blank"
+                >
+                  {t("projects.viewLive")}
+                </a>
               </button>
               <button className="xl:hidden border-2 py-1 px-2 rounded-md hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
-                <a href="https://github.com/TC2005B-FJ-2025/AWAQ.EcoGuardians.git" target="_blank"> {t("projects.viewCode")}</a>
+                <a
+                  href="https://github.com/TC2005B-FJ-2025/AWAQ.EcoGuardians.git"
+                  target="_blank"
+                >
+                  {" "}
+                  {t("projects.viewCode")}
+                </a>
               </button>
             </div>
           </div>
@@ -125,9 +136,12 @@ export default function Projects() {
                 id="project-stack"
               >
                 {isXl && (
-                  <a href="https://github.com/leongab08/GPT-clone.git" target="_blank">
+                  <a
+                    href="https://github.com/leongab08/GPT-clone.git"
+                    target="_blank"
+                  >
                     <p className="py-1 px-2 border-2 hidden xl:block border-white rounded-2xl hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
-                     {t("projects.viewGithub")}
+                      {t("projects.viewGithub")}
                     </p>
                   </a>
                 )}
@@ -141,12 +155,9 @@ export default function Projects() {
                 <span className="py-1 px-2 border-2 border-amber-50 rounded-2xl ">
                   JavaScript
                 </span>
-              </div>
+              </div>{" "}
               <p id="project-description" className="mt-3 xl:text-sm">
-                Clon de ChatGPT desarrollado con React y Tailwind CSS, que
-                utiliza la API de OpenAI para generar respuestas en tiempo real,
-                integrando una interfaz responsiva y moderna. Ideal para
-                integrar el uso de LLMs en aplicaciones web
+                {t("projects.descriptions.gptClone")}
               </p>
             </div>
             <div
@@ -154,10 +165,17 @@ export default function Projects() {
               className="flex justify-between mt-4 xl:absolute top-10 right-1"
             >
               <button className="bg-white text-primary-background py-1 px-2 rounded-md hover:bg-transparent border-2 border-white hover:text-white transition-all duration-300 cursor-pointer xl:mr-3">
-                <a target = "_blank " href="https://gpt-clone-ecru.vercel.app/">{t("projects.viewLive")}</a>
+                <a target="_blank " href="https://gpt-clone-ecru.vercel.app/">
+                  {t("projects.viewLive")}
+                </a>
               </button>
               <button className="xl:hidden border-2 py-1 px-2 rounded-md hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
-                <a target= "_blank" href="https://github.com/leongab08/GPT-clone.git">{t("projects.viewCode")}</a>
+                <a
+                  target="_blank"
+                  href="https://github.com/leongab08/GPT-clone.git"
+                >
+                  {t("projects.viewCode")}
+                </a>
               </button>
             </div>
           </div>
@@ -185,7 +203,10 @@ export default function Projects() {
                 id="project-stack"
               >
                 {isXl && (
-                  <a href="https://github.com/leongab08/Predictor-gastos-ScikitLearn.git" target="_blank">
+                  <a
+                    href="https://github.com/leongab08/Predictor-gastos-ScikitLearn.git"
+                    target="_blank"
+                  >
                     <p className="py-1 px-2 border-2 hidden xl:block border-white rounded-2xl hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
                       {t("projects.viewGithub")}
                     </p>
@@ -201,14 +222,9 @@ export default function Projects() {
                 <span className="py-1 px-2 border-2 border-amber-50 rounded-2xl lg:text-base md:text-sm">
                   Pandas
                 </span>
-              </div>
+              </div>{" "}
               <p id="project-description" className="mt-3 xl:text-sm lg:mb-2">
-                Script de Python desarrollado con scikit-learn que permite
-                predecir gastos futuros a partir de un archivo Excel con formato
-                predefinido. El usuario puede subir su archivo .xlsx y el modelo
-                realiza un análisis de regresión lineal para estimar el
-                comportamiento de sus gastos. Incluye visualizaciones usando
-                matplotlib.
+                {t("projects.descriptions.predictorGastos")}
               </p>
             </div>
             <div
@@ -216,10 +232,22 @@ export default function Projects() {
               className="flex justify-between mt-4 xl:absolute top-0 right-1"
             >
               <button className="bg-white text-primary-background py-1 px-2 rounded-md hover:bg-transparent border-2 border-white hover:text-white transition-all duration-300 cursor-pointer xl:mr-3">
-               <a target="_blank" href="https://colab.research.google.com/drive/1BHZmJs_92C-paKWqq6809uxRFOyEcts1?usp=sharing"> {t("projects.viewLive")} </a>
+                <a
+                  target="_blank"
+                  href="https://colab.research.google.com/drive/1BHZmJs_92C-paKWqq6809uxRFOyEcts1?usp=sharing"
+                >
+                  {" "}
+                  {t("projects.viewLive")}{" "}
+                </a>
               </button>
               <button className="xl:hidden border-2 py-1 px-2 rounded-md hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
-                 <a target="_blank" href="https://github.com/leongab08/Predictor-gastos-ScikitLearn.git"> {t("projects.viewCode")} </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/leongab08/Predictor-gastos-ScikitLearn.git"
+                >
+                  {" "}
+                  {t("projects.viewCode")}{" "}
+                </a>
               </button>
             </div>
           </div>
@@ -247,7 +275,10 @@ export default function Projects() {
                 id="project-stack"
               >
                 {isXl && (
-                  <a href="https://github.com/leongab08/Azure_IoT_Central_ESP32.git" target="_blank">
+                  <a
+                    href="https://github.com/leongab08/Azure_IoT_Central_ESP32.git"
+                    target="_blank"
+                  >
                     <p className="py-1 px-2 border-2 hidden xl:block border-white rounded-2xl hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
                       {t("projects.viewGithub")}
                     </p>
@@ -263,16 +294,12 @@ export default function Projects() {
                 <span className="py-1 px-2 border-2 border-amber-50 rounded-2xl lg:text-base md:text-sm">
                   IoT
                 </span>
-              </div>
+              </div>{" "}
               <p
                 id="project-description"
                 className="mt-3 xl:text-sm xl:mb-[9px]"
               >
-                Programa embebido en Arduino con ESP32 que mide temperatura,
-                humedad y luz. Los datos se envían vía WiFi a Azure y se
-                visualizan en un dashboard en tiempo real. Según valores
-                predefinidos, se activan actuadores de riego, ventilación y
-                sombreado automático para controlar las condiciones del huerto.
+                {t("projects.descriptions.huertoIOT")}
               </p>
             </div>
             <div
@@ -280,10 +307,20 @@ export default function Projects() {
               className="flex justify-between mt-4 xl:absolute top-0 right-1"
             >
               <button className="bg-white text-primary-background py-1 px-2 rounded-md hover:bg-transparent border-2 border-white hover:text-white transition-all duration-300 cursor-pointer xl:mr-3">
-               <a href="https://drive.google.com/drive/folders/1cZgMguxjhFFtIKlxdQFAjUZaxF2klXvd?usp=sharing" target="_blank">{t("projects.viewLive")}</a>
+                <a
+                  href="https://drive.google.com/drive/folders/1cZgMguxjhFFtIKlxdQFAjUZaxF2klXvd?usp=sharing"
+                  target="_blank"
+                >
+                  {t("projects.viewLive")}
+                </a>
               </button>
               <button className="xl:hidden border-2 py-1 px-2 rounded-md hover:bg-white hover:text-primary-background transition-all duration-300 cursor-pointer">
-                <a href="https://github.com/leongab08/Azure_IoT_Central_ESP32.git" target="_blank">{t("projects.viewCode")}</a>
+                <a
+                  href="https://github.com/leongab08/Azure_IoT_Central_ESP32.git"
+                  target="_blank"
+                >
+                  {t("projects.viewCode")}
+                </a>
               </button>
             </div>
           </div>

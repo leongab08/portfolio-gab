@@ -4,7 +4,7 @@
     "about": "About",
     "projects": "Projects",
     "stack": "Stack",
-    "services": "Services",
+    "services": "Certifications",
     "contact": "Contact",
     "contactMe": "Contact Me",
     "viewCV": "View CV",
@@ -27,7 +27,13 @@
     "title": "My projects",
     "viewGithub": "View on Github",
     "viewLive": "view live",
-    "viewCode": "view code"
+    "viewCode": "view code",
+    "descriptions": {
+      "awaqEcoGuardians": "Website developed in collaboration with the Colombian NGO AWAQ, who asked us to integrate their WebGL video game. The project combines responsive design with modern technologies like React and Tailwind CSS.",
+      "gptClone": "ChatGPT clone developed with React and Tailwind CSS, using the OpenAI API to generate real-time responses, integrating a responsive and modern interface. Ideal for integrating LLMs in web applications.",
+      "predictorGastos": "Python script developed with scikit-learn that allows predicting future expenses from an Excel file with a predefined format. Users can upload their .xlsx file and the model performs linear regression analysis to estimate spending behavior. Includes matplotlib visualizations.",
+      "huertoIOT": "Embedded program on Arduino with ESP32 that measures temperature, humidity, and light. The data is sent via WiFi to Azure and displayed on a real-time dashboard. Based on predefined values, irrigation, ventilation, and automatic shading actuators are activated to control garden conditions."
+    }
   },
   "stack": {
     "title": "MY TECH STACK",
@@ -37,18 +43,32 @@
     "tools": "Tools"
   },
   "services": {
-    "title": "Services",
-    "webDev": {
-      "title": "Web development",
-      "description": "I am capable of developing websites for businesses and companies, I have experience with independent businesses, boosting their sales and helping them reach more customers"
-    },
-    "webDesign": {
-      "title": "Web design",
-      "description": "I am capable of designing web pages for businesses and companies, I have experience with independent businesses, boosting their sales and helping them reach more customers"
-    },
-    "ai": {
-      "title": "AI engineering",
-      "description": "I can develop machine learning algorithms and automations for businesses or companies"
+    "title": "Certifications",
+    "cards": {
+      "javascript": {
+        "title": "Programming with JavaScript",
+        "description": "I obtained this official certification taught by Meta, where I strengthened my knowledge in JavaScript and web application development. Throughout the course, I learned to write clean and structured code, create and manipulate objects and arrays, apply functional design principles, work with Node.js and develop event-driven programs. This training allowed me to consolidate key skills such as logical thinking, functional web development and modern programming with JavaScript.",
+        "date": "Feb 2024 - May 2024",
+        "viewCredential": "View credential"
+      },
+      "frontend": {
+        "title": "Front-End Web Development",
+        "description": "I obtained the Introduction to Front-End Development certification from Meta on Coursera, where I learned to create and style web pages with CSS and TailwindCSS, also to apply responsive design and use frameworks like React.js. I developed key skills in interface development, adaptive design, UX/UI design and the use of modern tools for web applications.",
+        "date": "Oct 2023 - Feb 2024",
+        "viewCredential": "View credential"
+      },
+      "responsive": {
+        "title": "Web Responsive Design",
+        "description": "I obtained the Responsive Web Design certification from freeCodeCamp, with an approximate duration of 300 hours, where I developed solid skills in the design and development of adaptable web interfaces. I learned to create semantic and accessible websites, implementing responsive design principles, structured content organization and multi-platform compatibility. This training consolidated my skills in user-centered design and good web layout practices.",
+        "date": "May 2024 - Sep 2024",
+        "viewCredential": "View credential"
+      },
+      "algorithms": {
+        "title": "JavaScript Algorithms and Data Structures",
+        "description": "I obtained the JavaScript Algorithms and Data Structures certification from freeCodeCamp, with an approximate duration of 300 hours. This training allowed me to develop advanced skills in data structures, algorithms, functional programming, complex logical structures management, validations and flow control in JavaScript. I consolidated key skills to solve programming problems efficiently, applying good development practices and rigorous algorithmic thinking.",
+        "date": "Oct 2024 - Jan 2025",
+        "viewCredential": "View credential"
+      }
     }
   },
   "contact": {
