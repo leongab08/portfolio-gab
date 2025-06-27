@@ -16,7 +16,7 @@ import mongodbIcon from "assets/icons/file-type-mongo.svg";
 import gitIcon from "assets/icons/git.svg";
 import figmaIcon from "assets/icons/Figma.svg";
 import visualStudioCodeIcon from "assets/icons/Visual-Studio.png";
-import laravelIcon from "assets/icons/laravel.svg";
+import typeScriptIcon from "assets/icons/typeScript.png"
 
 export default function Stack() {
   const { t } = useTranslation();
@@ -44,6 +44,11 @@ export default function Stack() {
               {" "}
               <img src={javaScriptIcon} alt="" className="w-10 " />
               <p>JavaScript</p>
+            </div>
+             <div className="flex gap-4 text-2xl items-center cursor-pointer hover:-translate-y-2 transition-transform duration-300">
+              {" "}
+              <img src={typeScriptIcon} alt="" className="w-10 " />
+              <p>TypeScript</p>
             </div>
             <div className="flex gap-4 text-2xl items-center cursor-pointer hover:-translate-y-2 transition-transform duration-300">
               {" "}
