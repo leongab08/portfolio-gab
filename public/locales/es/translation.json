@@ -12,15 +12,15 @@
   },
   "home": {
     "hello": "Hola, soy Gabriel Esperilla",
-    "role": "Desarrollador Web",
+    "role": "Ingeniero de Software Full-Stack",
     "from": "del Tecnológico de Monterrey",
-    "description": "Soy una persona muy apasionada por el desarrollo web, creo que el desarrollo web es fundamental en nuestra sociedad y por eso elegí esta carrera",
+    "description": "Ingeniero de software en formación con experiencia en desarrollo full-stack e inteligencia artificial. Apasionado por crear soluciones web modernas, integrar modelos de lenguaje y automatizar procesos inteligentes.",
     "hire": "Contratar",
     "contactMe": "Contáctame"
   },
   "about": {
     "title": "Sobre mí",
-    "description": "Me considero una persona resiliente, siempre trato de dar lo mejor de mí para cumplir con mis objetivos y a pesar de los problemas, me esforzaré hasta cumplir todos mis objetivos y metas en esta vida.",
+    "description": "Me considero una persona resiliente, siempre trato de dar lo mejor de mí para cumplir con mis objetivos y a pesar de los problemas, me esforzaré hasta cumplir todos mis objetivos y metas.",
     "skills": "Habilidades"
   },
   "projects": {

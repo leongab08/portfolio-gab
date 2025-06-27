@@ -12,15 +12,15 @@
   },
   "home": {
     "hello": "Hello I'm Gabriel Esperilla",
-    "role": "Web Developer",
+    "role": "Full-Stack Software Engineer",
     "from": "from Tecnologico de Monterrey",
-    "description": "I'm a very passionated person of the web development, i think that the web development is fundamental in our society and that's why i choose this career",
+    "description": "Software engineer in training with experience in full-stack development and artificial intelligence. Passionate about building modern web solutions, integrating language models, and automating intelligent processes.",
     "hire": "Hire",
     "contactMe": "Contact Me"
   },
   "about": {
     "title": "About me",
-    "description": "I consider myself a resilient person, I always try to give my best to meet my objectives and despite problems, I will strive to fulfill all my objectives and goals in this life.",
+    "description": "I consider myself a resilient person, I always try to give my best to meet my objectives and despite problems, I will strive to fulfill all my objectives and goals.",
     "skills": "Skills"
   },
   "projects": {
